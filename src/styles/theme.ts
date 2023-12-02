@@ -8,6 +8,10 @@ const mainPalette = {
   accentOne: "#9486FC",
   accentTwo: "#E186FC",
   accentThree: "#86C3FC",
+  error: "#ffffff",
+  warning: "#ffffff",
+  success: "#ffffff",
+  neutralSecondary: "#ffffff",
   transparent: (value: number) => `rgba(0, 0, 0, ${ value })`
 };
 

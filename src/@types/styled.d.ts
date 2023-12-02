@@ -11,6 +11,10 @@ declare module "styled-components" {
       accentTwo: string;
       accentThree: string;
       transparent: (number) => string;
+      error: string;
+      warning: string,
+      success: string,
+      neutralSecondary: string,
     };
   }
 }
