@@ -252,7 +252,7 @@ export const dialogs = [
   {
     interviewee_id: "Anon",
     interviewee_name: "Аноним", // Имя опрашиваемого
-    interviewee_photo: "kitten.png", // Фото кидайте в папку src/assets/images/
+    interviewee_photo: "anon.jpg", // Фото кидайте в папку src/assets/images/
     interviewee_desc: "1968 года рождения",
     interviewee_city: "Москва",
 
