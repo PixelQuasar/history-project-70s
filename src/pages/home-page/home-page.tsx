@@ -21,17 +21,9 @@ export default function HomePage() {
         side={-1}
         transition={false}
       />
-      {/*<Circle*/}
-      {/*  x={-50}*/}
-      {/*  y={700}*/}
-      {/*  size={2}*/}
-      {/*  color={staticTheme.ayy4.dark}*/}
-      {/*  side={-1}*/}
-      {/*  transition={false}*/}
-      {/*/>*/}
       <Triangle
         x={50}
-        y={300}
+        y={800}
         size={2}
         color={staticTheme.ayy4.redPale}
         degree={135}
@@ -66,22 +58,6 @@ export default function HomePage() {
         side={-1}
         transition={false}
       />
-      {/*<Circle*/}
-      {/*  x={1500}*/}
-      {/*  y={700}*/}
-      {/*  size={3}*/}
-      {/*  color={staticTheme.ayy4.redPale}*/}
-      {/*  side={-1}*/}
-      {/*  transition={false}*/}
-      {/*/>*/}
-      {/*<Circle*/}
-      {/*  x={1600}*/}
-      {/*  y={500}*/}
-      {/*  size={1}*/}
-      {/*  color={staticTheme.ayy4.yellow}*/}
-      {/*  side={-1}*/}
-      {/*  transition={false}*/}
-      {/*/>*/}
     </HomePageWrapper>
   );
 }
