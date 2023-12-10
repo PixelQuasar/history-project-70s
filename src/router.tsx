@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import HomePage from "./pages/home-page";
 import RouterWrapper from "./components/router-wrapper/router-wrapper";
 import InterviewPage from "./pages/interview";
+import { InterviewBlock } from "./pages/interview/components/interview-block/interview-block.tsx";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,12 @@ const router = createBrowserRouter([
       {
         path: "interview",
         element: <InterviewPage />,
+        children: [
+          {
+            path: ":id",
+            element: <InterviewBlock />,
+          },
+        ],
       },
     ],
   },
