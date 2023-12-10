@@ -74,47 +74,24 @@ export const InterviewBlock = () => {
       )}
       {interview && (
         <InterviewMainBlock>
-          <InterviewQuestionBlock>
-            <b>Корреспондент:</b> <i>Что?</i>
-          </InterviewQuestionBlock>
-          <InterviewBubbleWrapper>
-            <BubbleContainer>
-              <BubbleBar />
-              <TextContainer>
-                <div>
-                  <b>Котенок:</b> <i>lorem ipsum</i>
-                </div>
-              </TextContainer>
-            </BubbleContainer>
-          </InterviewBubbleWrapper>
-
-          <InterviewQuestionBlock>
-            <b>Корреспондент:</b> <i>Что?</i>
-          </InterviewQuestionBlock>
-          <InterviewBubbleWrapper>
-            <BubbleContainer>
-              <BubbleBar />
-              <TextContainer>
-                <div>
-                  <b>Котенок:</b> <i>lorem ipsum</i>
-                </div>
-              </TextContainer>
-            </BubbleContainer>
-          </InterviewBubbleWrapper>
-
-          <InterviewQuestionBlock>
-            <b>Корреспондент:</b> <i>Что?</i>
-          </InterviewQuestionBlock>
-          <InterviewBubbleWrapper>
-            <BubbleContainer>
-              <BubbleBar />
-              <TextContainer>
-                <div>
-                  <b>Котенок:</b> <i>lorem ipsum</i>
-                </div>
-              </TextContainer>
-            </BubbleContainer>
-          </InterviewBubbleWrapper>
+          {interview.content.map((item) =>
+            item.interviewee ? (
+              <InterviewBubbleWrapper>
+                <BubbleContainer>
+                  <BubbleBar />
+                  <TextContainer>
+                    <div>
+                      <b>{interview.interviewee_name}</b> <i>{item.text}</i>
+                    </div>
+                  </TextContainer>
+                </BubbleContainer>
+              </InterviewBubbleWrapper>
+            ) : (
+              <InterviewQuestionBlock>
+                <b>Корреспондент</b> <i>{item.text}</i>
+              </InterviewQuestionBlock>
+            ),
+          )}
         </InterviewMainBlock>
       )}
     </InterviewBlockWrapper>

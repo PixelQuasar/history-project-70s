@@ -31,7 +31,7 @@ export const dialogs = [
     ],
   },
   {
-    interviewee_id: "E.Lydmila",
+    interviewee_id: "e-lydmila",
     interviewee_name: "Евсеева Людмила Дмитриевна", // Имя опрашиваемого
     interviewee_photo: "kitten.jpeg", // Фото кидайте в папку src/assets/images/
     interviewee_desc: "1954 года рождения",
@@ -104,7 +104,7 @@ export const dialogs = [
     ],
   },
   {
-    interviewee_id: "K.Sofia",
+    interviewee_id: "k-sofia",
     interviewee_name: "Карпова София Владиславовна", // Имя опрашиваемого
     interviewee_photo: "kitten.jpeg", // Фото кидайте в папку src/assets/images/
     interviewee_desc: "1977 года рождения",
@@ -177,7 +177,7 @@ export const dialogs = [
     ],
   },
   {
-    interviewee_id: "Y.Petr",
+    interviewee_id: "y-petr",
     interviewee_name: "Яковлев Пётр Фёдорович", // Имя опрашиваемого
     interviewee_photo: "kitten.jpeg", // Фото кидайте в папку src/assets/images/
     interviewee_desc: "1974 года рождения",
@@ -250,7 +250,7 @@ export const dialogs = [
     ],
   },
   {
-    interviewee_id: "Anon",
+    interviewee_id: "anon",
     interviewee_name: "Аноним", // Имя опрашиваемого
     interviewee_photo: "kitten.jpeg", // Фото кидайте в папку src/assets/images/
     interviewee_desc: "1968 года рождения",
@@ -323,7 +323,7 @@ export const dialogs = [
     ],
   },
   {
-    interviewee_id: "I.Vasilisa",
+    interviewee_id: "i-vasilisa",
     interviewee_name: "Исаева Василиса Никитична", // Имя опрашиваемого
     interviewee_photo: "kitten.jpeg", // Фото кидайте в папку src/assets/images/
     interviewee_desc: "1970 года рождения",

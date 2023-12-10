@@ -49,8 +49,9 @@ export const InterviewTitleBlock = styled.div`
   gap: 32px;
   width: 70%;
   padding-top: 32px;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  margin-left: 10%;
 `;
 
 export const InterviewTextBlock = styled.div`

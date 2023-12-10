@@ -5,6 +5,7 @@ export const FooterWrapper = styled.div`
   width: 100%;
   padding: 64px;
   box-sizing: border-box;
+  z-index: 10;
 `;
 
 export const FooterNavbar = styled.div`
