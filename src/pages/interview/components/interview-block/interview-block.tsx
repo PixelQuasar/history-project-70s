@@ -23,11 +23,11 @@ import { dialogs } from "../../../../assets/text/interview-dialogs.ts";
 import { useEffect, useState } from "react";
 
 interface IInterview {
-    interviewee_id:string
-    interviewee_name: string
-    interviewee_photo: string
-    interviewee_desc: string
-    content: Array<{interviewee: boolean, text: string}>
+  interviewee_id: string;
+  interviewee_name: string;
+  interviewee_photo: string;
+  interviewee_desc: string;
+  content: Array<{ interviewee: boolean; text: string }>;
 }
 
 export const InterviewBlock = () => {
@@ -51,7 +51,10 @@ export const InterviewBlock = () => {
         <InterviewTitleBlock>
           <InterviewPhoto src={imageImports["kitten.jpeg"]} />
           <InterviewTextBlock>
-            <InterviewTitleText> {interview.} </InterviewTitleText>
+            <InterviewTitleText>
+              {" "}
+              {interview.interviewee_name}{" "}
+            </InterviewTitleText>
             <InterviewSubTitleText>
               Просто маленький котенок
             </InterviewSubTitleText>
