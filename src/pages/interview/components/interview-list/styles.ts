@@ -70,6 +70,7 @@ export const BlockImage = styled.div<{ src: string }>`
   background-position: center;
   width: 100%;
   height: 50%;
+  border-radius: 8px;
 `;
 
 export const BlockDescription = styled.div`
