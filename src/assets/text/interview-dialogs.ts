@@ -7,7 +7,7 @@ export const dialogs = [
     interviewee_id: "e_lydmila",
     interviewee_name: "Евсеева Людмила Дмитриевна", // Имя опрашиваемого
     interviewee_photo: "E.Lydmila.png", // Фото кидайте в папку src/assets/images/
-    interviewee_desc: "1954 года рождения",
+    interviewee_desc: "1954 года рождения, Северобайкальск",
     interviewee_city: "Северобайкальск",
 
     content: [
@@ -80,7 +80,7 @@ export const dialogs = [
     interviewee_id: "k_sofia",
     interviewee_name: "Карпова София Владиславовна", // Имя опрашиваемого
     interviewee_photo: "K.Sofia.png", // Фото кидайте в папку src/assets/images/
-    interviewee_desc: "1977 года рождения",
+    interviewee_desc: "1977 года рождения, Москва",
     interviewee_city: "Москва",
 
     content: [
@@ -153,7 +153,7 @@ export const dialogs = [
     interviewee_id: "y_petr",
     interviewee_name: "Яковлев Пётр Фёдорович", // Имя опрашиваемого
     interviewee_photo: "Y.Petr.png", // Фото кидайте в папку src/assets/images/
-    interviewee_desc: "1974 года рождения",
+    interviewee_desc: "1974 года рождения, Москва",
     interviewee_city: "Москва",
 
     content: [
@@ -226,7 +226,7 @@ export const dialogs = [
     interviewee_id: "anon",
     interviewee_name: "Аноним", // Имя опрашиваемого
     interviewee_photo: "anon.jpg", // Фото кидайте в папку src/assets/images/
-    interviewee_desc: "1968 года рождения",
+    interviewee_desc: "1968 года рождения, Москва",
     interviewee_city: "Москва",
 
     content: [
@@ -299,7 +299,7 @@ export const dialogs = [
     interviewee_id: "i_vasilisa",
     interviewee_name: "Исаева Василиса Никитична", // Имя опрашиваемого
     interviewee_photo: "default.png", // Фото кидайте в папку src/assets/images/
-    interviewee_desc: "1970 года рождения",
+    interviewee_desc: "1970 года рождения, Москва",
     interviewee_city: "Москва",
 
     content: [
