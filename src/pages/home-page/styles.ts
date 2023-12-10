@@ -9,6 +9,7 @@ export const HomePageWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   background-color: ${staticTheme.ayy4.pale};
+  height: 100vh;
 `;
 
 export const HeaderBlock = styled.div`

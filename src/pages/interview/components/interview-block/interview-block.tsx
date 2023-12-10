@@ -1,4 +1,6 @@
 import {
+  BubbleBar,
+  BubbleContainer,
   InterviewBlockWrapper,
   InterviewBubbleWrapper,
   InterviewDescription,
@@ -9,6 +11,9 @@ import {
   InterviewTextBlock,
   InterviewTitleBlock,
   InterviewTitleText,
+  TextContainer,
+  UndoImage,
+  UndoLinkWrapper,
 } from "./styles.ts";
 
 import imageImports from "../../../../assets/image-imports.ts";
@@ -16,6 +21,10 @@ import imageImports from "../../../../assets/image-imports.ts";
 export const InterviewBlock = () => {
   return (
     <InterviewBlockWrapper>
+      <UndoLinkWrapper>
+        <UndoImage />
+        Назад
+      </UndoLinkWrapper>
       <InterviewTitleBlock>
         <InterviewPhoto src={imageImports["kitten.jpeg"]} />
         <InterviewTextBlock>
@@ -35,21 +44,42 @@ export const InterviewBlock = () => {
           <b>Корреспондент:</b> <i>Что?</i>
         </InterviewQuestionBlock>
         <InterviewBubbleWrapper>
-          <b>Котенок:</b> <i>lorem ipsum</i>
+          <BubbleContainer>
+            <BubbleBar />
+            <TextContainer>
+              <div>
+                <b>Котенок:</b> <i>lorem ipsum</i>
+              </div>
+            </TextContainer>
+          </BubbleContainer>
         </InterviewBubbleWrapper>
 
         <InterviewQuestionBlock>
-          <b>Корреспондент:</b> <i>Что????</i>
+          <b>Корреспондент:</b> <i>Что?</i>
         </InterviewQuestionBlock>
         <InterviewBubbleWrapper>
-          <b>Котенок:</b> <i>lorem ipsum</i>
+          <BubbleContainer>
+            <BubbleBar />
+            <TextContainer>
+              <div>
+                <b>Котенок:</b> <i>lorem ipsum</i>
+              </div>
+            </TextContainer>
+          </BubbleContainer>
         </InterviewBubbleWrapper>
 
         <InterviewQuestionBlock>
-          <b>Корреспондент:</b> <i>Что?????????</i>
+          <b>Корреспондент:</b> <i>Что?</i>
         </InterviewQuestionBlock>
         <InterviewBubbleWrapper>
-          <b>Котенок:</b> <i>lorem ipsum</i>
+          <BubbleContainer>
+            <BubbleBar />
+            <TextContainer>
+              <div>
+                <b>Котенок:</b> <i>lorem ipsum</i>
+              </div>
+            </TextContainer>
+          </BubbleContainer>
         </InterviewBubbleWrapper>
       </InterviewMainBlock>
     </InterviewBlockWrapper>
