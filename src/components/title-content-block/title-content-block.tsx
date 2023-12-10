@@ -1,4 +1,4 @@
-import { TitleContentBlockWrapper } from "./styles.ts";
+import { Title, TitleContentBlockWrapper } from "./styles.ts";
 
 interface ITitleContentBlockProps {
   text: string;
@@ -7,5 +7,9 @@ interface ITitleContentBlockProps {
 }
 
 export const TitleContentBlock = (props: ITitleContentBlockProps) => {
-  return <TitleContentBlockWrapper></TitleContentBlockWrapper>;
+  return (
+    <TitleContentBlockWrapper>
+      <Title>{props.text}</Title>
+    </TitleContentBlockWrapper>
+  );
 };

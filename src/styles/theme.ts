@@ -29,9 +29,11 @@ const mainPalette = {
   neutralSecondary: "#ffffff",
   ayy4: {
     dark: "#00303b",
+    darkPale: "#222c2e",
     pale: "#f1f2da",
     red: "#ff7777",
     yellow: "#ffce96",
+    yellowDark: "#e0ae75",
     redPale: "#ee8888",
   },
   transparent: (value: number) => `rgba(0, 0, 0, ${value})`,

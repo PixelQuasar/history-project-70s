@@ -1,6 +1,9 @@
 import { LinkLogo, NavbarItem, NavbarWrapper } from "./styles.ts";
+import { useNavigate } from "react-router-dom";
 
 export const Navbar = () => {
+  const navigate = useNavigate();
+
   return (
     <NavbarWrapper>
       <NavbarItem>
@@ -9,7 +12,7 @@ export const Navbar = () => {
       <NavbarItem>
         <LinkLogo /> Рецензии
       </NavbarItem>
-      <NavbarItem>
+      <NavbarItem onClick={() => navigate("/interview")}>
         <LinkLogo /> Интервью
       </NavbarItem>
     </NavbarWrapper>
