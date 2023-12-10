@@ -31,7 +31,7 @@ export const dialogs = [
     {
         interviewee_id: "E.Lydmila",
         interviewee_name: "Евсеева Людмила Дмитриевна",        // Имя опрашиваемого
-        interviewee_photo: "kitten.png",    // Фото кидайте в папку src/assets/images/
+        interviewee_photo: "E.Lydmila.png",    // Фото кидайте в папку src/assets/images/
         interviewee_desc: "1954 года рождения",   
             
         content: [
@@ -103,7 +103,7 @@ export const dialogs = [
     {
         interviewee_id: "K.Sofia",
         interviewee_name: "Карпова София Владиславовна",        // Имя опрашиваемого
-        interviewee_photo: "kitten.png",    // Фото кидайте в папку src/assets/images/
+        interviewee_photo: "K.Sofia.png",    // Фото кидайте в папку src/assets/images/
         interviewee_desc: "1977 года рождения", 
         
         content: [
@@ -175,7 +175,7 @@ export const dialogs = [
     {
         interviewee_id: "Y.Petr",
         interviewee_name: "Яковлев Пётр Фёдорович",        // Имя опрашиваемого
-        interviewee_photo: "kitten.png",    // Фото кидайте в папку src/assets/images/
+        interviewee_photo: "Y.Petr.png",    // Фото кидайте в папку src/assets/images/
         interviewee_desc: "1974 года рождения", 
 
         content: [
@@ -319,7 +319,7 @@ export const dialogs = [
     {
         interviewee_id: "I.Vasilisa",
         interviewee_name: "Исаева Василиса Никитична",        // Имя опрашиваемого
-        interviewee_photo: "kitten.png",    // Фото кидайте в папку src/assets/images/
+        interviewee_photo: "i.Vasilisa.png",    // Фото кидайте в папку src/assets/images/
         interviewee_desc: "1970 года рождения",
 
         content: [
@@ -389,157 +389,3 @@ export const dialogs = [
         ]
     }
 ]
-=======
-  // Пример интервью-объекта
-  {
-    interviewee_id: "sample",
-    interviewee_name: "Котенок", // Имя опрашиваемого
-    interviewee_photo: "kitten.png", // Фото кидайте в папку src/assets/images/
-    interviewee_desc: "Это описание котенка.",
-
-    content: [
-      // массив из фраз интервью
-      {
-        interviewee: false, // если false - речь корреспондента, если true - речь опрашиваемого
-        text: "Здравствуйте, начнем интервью",
-      },
-      {
-        interviewee: true,
-        text: "Мяу",
-      },
-      {
-        interviewee: false,
-        text: "Объясните свою маленькость",
-      },
-      {
-        interviewee: true,
-        text: "Я котенок",
-      },
-    ],
-  },
-  {
-    interviewee_name: "Евсеева Людмила Дмитриевна", // Имя опрашиваемого
-    interviewee_photo: "kitten.png", // Фото кидайте в папку src/assets/images/
-    interviewee_desc: "1954 года рождения",
-
-    content: [
-      {
-        interviewee: false,
-
-        text: "На каком предприятии работали или в каком институте учились в советское время?",
-      },
-      {
-        interviewee: true,
-        text: "Работала на торговой базе УРСа (управление рабочего снабжения), в должности ЗАВ. Склада, училась в техникуме, городе Свердловске, Техникум советской торговли.",
-      },
-      {
-        interviewee: false,
-
-        text: "Были ли вы членом партии или комсомола?",
-      },
-      {
-        interviewee: true,
-        text: "Член КПСС, была комсомолкой с 1967 по 1977, а член КПСС с 1978 по 1990 год.",
-      },
-      {
-        interviewee: false,
-
-        text: "Как вы вспоминаете то время(поздний СССР)? (Позитивно/негативно)",
-      },
-      {
-        interviewee: true,
-        text: "Вспоминает советское время позитивно, получали жил площадь, высокая зарплата, бесплатно все, медицина хорошая, путёвки на отдых каждый год городам героям по союзу.",
-      },
-      {
-        interviewee: false,
-
-        text: "Были ли в вашем окружении активисты/диссиденты?",
-      },
-      {
-        interviewee: true,
-        text: "Активистов было много, сама была активисткой, занималась в народном театре, в художественной самодеятелтности, была народным заседателем в народном суде. Диссидентов в моем окружении не было.",
-      },
-      {
-        interviewee: false,
-
-        text: "Как относились к западной культуре?",
-      },
-      {
-        interviewee: true,
-        text: "К западной культуре относились хорошо, обменивались опытом.",
-      },
-      {
-        interviewee: false,
-
-        text: "Согласны ли вы с концепцией, что в позднем СССР ритуальная, формальная составляющая мероприятий и речей с повторяющимися лозунгами стала преволировать над смысловой их частью?",
-      },
-      {
-        interviewee: true,
-        text: "С концепцией не согласна, мы хорошо жили, активно и интересно, строили Бам, сдавали донорскую кровь каждые сорок дней, ходили на парады, помогали все друг другу.",
-      },
-    ],
-  },
-  {
-    interviewee_name: "Карпова София Владиславовна", // Имя опрашиваемого
-    interviewee_photo: "kitten.png", // Фото кидайте в папку src/assets/images/
-    interviewee_desc: "1977 года рождения",
-
-    content: [
-      {
-        interviewee: false,
-
-        text: "На каком предприятии работали или в каком институте учились в советское время?",
-      },
-      {
-        interviewee: true,
-        text: "В школе.",
-      },
-      {
-        interviewee: false,
-
-        text: "Были ли вы членом партии или комсомола?",
-      },
-      {
-        interviewee: true,
-        text: "Только октябренком. Вступить в комсомол не успела.",
-      },
-      {
-        interviewee: false,
-
-        text: "Как вы вспоминаете то время(поздний СССР)? (Позитивно/негативно)",
-      },
-      {
-        interviewee: true,
-        text: "Позитивно.",
-      },
-      {
-        interviewee: false,
-
-        text: "Были ли в вашем окружении активисты/диссиденты?",
-      },
-      {
-        interviewee: true,
-        text: "Нет.",
-      },
-      {
-        interviewee: false,
-
-        text: "Как относились к западной культуре?",
-      },
-      {
-        interviewee: true,
-        text: "Спокойно.",
-      },
-      {
-        interviewee: false,
-
-        text: "Согласны ли вы с концепцией, что в позднем СССР ритуальная, формальная составляющая мероприятий и речей с повторяющимися лозунгами стала преволировать над смысловой их частью?",
-      },
-      {
-        interviewee: true,
-        text: "Я была ребенком. Для меня все было наполнено смыслом - классные часы, сбор макулатуры и проч.",
-      },
-    ],
-  },
-];
-
