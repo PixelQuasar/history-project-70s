@@ -137,6 +137,7 @@ export const BubbleContainer = styled.div`
 
 export const TextContainer = styled.div`
   display: flex;
+  padding: 16px 64px 16px 0;
 `;
 
 export const BubbleBar = styled.div`

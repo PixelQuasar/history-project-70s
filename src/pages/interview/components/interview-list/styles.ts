@@ -27,7 +27,7 @@ export const InterviewListContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 96px 64px;
-  width: 80%;
+  width: 70%;
   justify-content: center;
   align-items: center;
   margin-top: 64px;
@@ -52,8 +52,8 @@ export const InterviewBlock = styled.div`
   box-shadow:
     rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 500px;
 `;
 
 export const BlockTitle = styled.div`
@@ -67,8 +67,10 @@ export const BlockImage = styled.div<{ src: string }>`
   display: flex;
   background-image: url("${(props) => props.src}");
   background-size: cover;
+  background-position: center;
   width: 100%;
   height: 50%;
+  border-radius: 8px;
 `;
 
 export const BlockDescription = styled.div`
