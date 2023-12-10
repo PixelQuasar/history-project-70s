@@ -20,7 +20,7 @@ export const NavbarItem = styled.div`
   align-items: center;
   gap: 8px;
   cursor: pointer;
-  transition: 0.2s all;
+  transition: 0.4s all;
   &:hover {
     transform: scale(1.15);
     opacity: 1;

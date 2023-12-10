@@ -6,7 +6,7 @@ export const Navbar = () => {
 
   return (
     <NavbarWrapper>
-      <NavbarItem>
+      <NavbarItem onClick={() => navigate("/")}>
         <LinkLogo /> Главная
       </NavbarItem>
       <NavbarItem>
