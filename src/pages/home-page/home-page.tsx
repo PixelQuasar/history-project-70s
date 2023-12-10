@@ -3,6 +3,7 @@ import Triangle from "../../styles/shapes/Triangle.tsx";
 import { staticTheme } from "../../styles/theme.ts";
 import Stripes from "../../styles/shapes/Stripes.tsx";
 import Navbar from "../../components/navbar";
+import { ContactsCard } from "./components/contact-card/contact-card.tsx";
 export default function HomePage() {
   return (
     <HomePageWrapper>
@@ -11,6 +12,8 @@ export default function HomePage() {
         <SubHeader>последнее советское поколение</SubHeader>
       </HeaderBlock>
       <Navbar />
+
+      <ContactsCard />
 
       <Triangle
         x={-500}

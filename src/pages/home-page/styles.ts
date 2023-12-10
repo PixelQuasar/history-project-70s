@@ -1,6 +1,14 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import "@fontsource/roboto/900.css";
 import { staticTheme } from "../../styles/theme.ts";
+export const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
 
 export const HomePageWrapper = styled.div`
   width: 100%;
@@ -9,7 +17,7 @@ export const HomePageWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   background-color: ${staticTheme.ayy4.pale};
-  height: 100vh;
+  margin-bottom: 256px;
 `;
 
 export const HeaderBlock = styled.div`
@@ -28,6 +36,9 @@ export const Header = styled.div`
   font-weight: bold;
   letter-spacing: -8px;
   line-height: 80%;
+  animation: ${fadeIn} 0.5s ease-in-out;
+  animation-delay: 0.2s;
+  animation-fill-mode: backwards;
   @media (max-width: 1400px) {
     font-size: 8em;
     letter-spacing: -7px;
@@ -62,4 +73,7 @@ export const SubHeader = styled.div`
   @media (max-width: 800px) {
     font-size: 1em;
   }
+  animation: ${fadeIn} 0.5s ease-in-out;
+  animation-delay: 0.4s;
+  animation-fill-mode: backwards;
 `;

@@ -4,34 +4,7 @@
 export const dialogs = [
   // Пример интервью-объекта
   {
-    interviewee_id: "sample",
-    interviewee_name: "Котенок", // Имя опрашиваемого
-    interviewee_photo: "kitten.jpeg", // Фото кидайте в папку src/assets/images/
-    interviewee_desc: "Это описание котенка.",
-    interviewee_city: "Саратов",
-
-    content: [
-      // массив из фраз интервью
-      {
-        interviewee: false, // если false - речь корреспондента, если true - речь опрашиваемого
-        text: "Здравствуйте, начнем интервью",
-      },
-      {
-        interviewee: true,
-        text: "Мяу",
-      },
-      {
-        interviewee: false,
-        text: "Объясните свою маленькость",
-      },
-      {
-        interviewee: true,
-        text: "Я котенок",
-      },
-    ],
-  },
-  {
-    interviewee_id: "E.Lydmila",
+    interviewee_id: "e_lydmila",
     interviewee_name: "Евсеева Людмила Дмитриевна", // Имя опрашиваемого
     interviewee_photo: "E.Lydmila.png", // Фото кидайте в папку src/assets/images/
     interviewee_desc: "1954 года рождения",
@@ -104,7 +77,7 @@ export const dialogs = [
     ],
   },
   {
-    interviewee_id: "K.Sofia",
+    interviewee_id: "k_sofia",
     interviewee_name: "Карпова София Владиславовна", // Имя опрашиваемого
     interviewee_photo: "K.Sofia.png", // Фото кидайте в папку src/assets/images/
     interviewee_desc: "1977 года рождения",
@@ -177,7 +150,7 @@ export const dialogs = [
     ],
   },
   {
-    interviewee_id: "Y.Petr",
+    interviewee_id: "y_petr",
     interviewee_name: "Яковлев Пётр Фёдорович", // Имя опрашиваемого
     interviewee_photo: "Y.Petr.png", // Фото кидайте в папку src/assets/images/
     interviewee_desc: "1974 года рождения",
@@ -250,7 +223,7 @@ export const dialogs = [
     ],
   },
   {
-    interviewee_id: "Anon",
+    interviewee_id: "anon",
     interviewee_name: "Аноним", // Имя опрашиваемого
     interviewee_photo: "anon.jpg", // Фото кидайте в папку src/assets/images/
     interviewee_desc: "1968 года рождения",
@@ -323,9 +296,9 @@ export const dialogs = [
     ],
   },
   {
-    interviewee_id: "I.Vasilisa",
+    interviewee_id: "i_vasilisa",
     interviewee_name: "Исаева Василиса Никитична", // Имя опрашиваемого
-    interviewee_photo: "I.Vasilisa.png", // Фото кидайте в папку src/assets/images/
+    interviewee_photo: "default.png", // Фото кидайте в папку src/assets/images/
     interviewee_desc: "1970 года рождения",
     interviewee_city: "Москва",
 

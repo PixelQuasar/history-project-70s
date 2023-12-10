@@ -38,11 +38,6 @@ export const UndoImage = styled.div`
   background-size: cover;
 `;
 
-export const InterviewContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
-
 export const InterviewTitleBlock = styled.div`
   display: flex;
   flex-direction: row;
@@ -97,24 +92,6 @@ export const InterviewBubbleWrapper = styled.div`
   box-shadow:
     rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
-`;
-
-export const InterviewBubbleHeader = styled.div`
-  display: flex;
-`;
-
-export const interviewBubbleTitle = styled.div`
-  font-size: 1.5em;
-  font-family: "Courier New";
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #50a9cf;
-`;
-
-export const interviewBubbleContent = styled.div`
-  font-style: italic;
 `;
 
 export const InterviewPhoto = styled.div<{ src: string }>`

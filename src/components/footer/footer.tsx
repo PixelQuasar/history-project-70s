@@ -13,7 +13,9 @@ export default function Footer() {
         <FooterNavbarItem onClick={() => navigate("/research")}>
           Интевью
         </FooterNavbarItem>
-        <FooterNavbarItem>Рецензии</FooterNavbarItem>
+        <FooterNavbarItem onClick={() => navigate("/quotes")}>
+          Рецензии
+        </FooterNavbarItem>
       </FooterNavbar>
     </FooterWrapper>
   );
