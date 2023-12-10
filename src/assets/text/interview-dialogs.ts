@@ -4,6 +4,7 @@
 export const dialogs = [
     // Пример интервью-объекта
     {
+        interviewee_id: "sample",
         interviewee_name: "Котенок",        // Имя опрашиваемого
         interviewee_photo: "kitten.png",    // Фото кидайте в папку src/assets/images/
         interviewee_desc: "Это описание котенка.",
@@ -28,6 +29,7 @@ export const dialogs = [
         ]
     },
     {
+        interviewee_id: "E.Lydmila",
         interviewee_name: "Евсеева Людмила Дмитриевна",        // Имя опрашиваемого
         interviewee_photo: "kitten.png",    // Фото кидайте в папку src/assets/images/
         interviewee_desc: "1954 года рождения",   
@@ -99,6 +101,7 @@ export const dialogs = [
         ]
     }, 
     {
+        interviewee_id: "K.Sofia",
         interviewee_name: "Карпова София Владиславовна",        // Имя опрашиваемого
         interviewee_photo: "kitten.png",    // Фото кидайте в папку src/assets/images/
         interviewee_desc: "1977 года рождения", 
@@ -170,6 +173,7 @@ export const dialogs = [
         ]
     },
     {
+        interviewee_id: "Y.Petr",
         interviewee_name: "Яковлев Пётр Фёдорович",        // Имя опрашиваемого
         interviewee_photo: "kitten.png",    // Фото кидайте в папку src/assets/images/
         interviewee_desc: "1974 года рождения", 
@@ -241,6 +245,7 @@ export const dialogs = [
         ]
     },
     {
+        interviewee_id: "Anon",
         interviewee_name: "Аноним",        // Имя опрашиваемого
         interviewee_photo: "kitten.png",    // Фото кидайте в папку src/assets/images/
         interviewee_desc: "1968 года рождения",
@@ -312,6 +317,7 @@ export const dialogs = [
         ]
     },
     {
+        interviewee_id: "I.Vasilisa",
         interviewee_name: "Исаева Василиса Никитична",        // Имя опрашиваемого
         interviewee_photo: "kitten.png",    // Фото кидайте в папку src/assets/images/
         interviewee_desc: "1970 года рождения",
