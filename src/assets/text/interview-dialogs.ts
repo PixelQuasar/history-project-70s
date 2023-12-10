@@ -99,7 +99,6 @@ export const dialogs = [
     content: [
       {
         interviewee: false,
-
         text: "На каком предприятии работали или в каком институте учились в советское время?",
       },
       {

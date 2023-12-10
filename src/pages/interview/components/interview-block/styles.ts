@@ -23,9 +23,12 @@ export const UndoLinkWrapper = styled.div`
   display: flex;
   gap: 16px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  & {
-    cursor: pointer;
-  }
+`;
+
+export const UndoLink = styled.div`
+  display: flex;
+  gap: 16px;
+  cursor: pointer;
 `;
 
 export const UndoImage = styled.div`
