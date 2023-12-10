@@ -34,7 +34,7 @@ interface IInterview {
 export const InterviewBlock = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const [interview, setInterview] = useState<undefined | IInterview>(null);
+  const [interview, setInterview] = useState<undefined | IInterview>(undefined);
 
   useEffect(() => {
     setInterview(dialogs.find((item) => item.interviewee_id == id));
@@ -50,19 +50,24 @@ export const InterviewBlock = () => {
       </UndoLinkWrapper>
       {interview && (
         <InterviewTitleBlock>
-          <InterviewPhoto src={imageImports["kitten.jpeg"]} />
+          <InterviewPhoto
+            src={
+              Object.keys(imageImports).includes(interview.interviewee_photo)
+                ? imageImports[
+                    interview.interviewee_photo as keyof typeof imageImports
+                  ]
+                : "def"
+            }
+          />
           <InterviewTextBlock>
             <InterviewTitleText>
-              {" "}
-              {interview.interviewee_name}{" "}
+              {interview.interviewee_name}
             </InterviewTitleText>
             <InterviewSubTitleText>
-              Просто маленький котенок
+              {interview.interviewee_city}
             </InterviewSubTitleText>
             <InterviewDescription>
-              Описание описание описание описание описание описание описание
-              описание описание описание описание описание описание описание
-              описание описание описание
+              {interview.interviewee_desc}
             </InterviewDescription>
           </InterviewTextBlock>
         </InterviewTitleBlock>
