@@ -1,0 +1,33 @@
+.equilateralTriangle {
+    position: fixed;
+    width: 0;
+    height: 0;
+
+    border-right: 50px solid  transparent;
+    border-left: 50px solid  transparent;
+    opacity: 1;
+    border-bottom: 86.60254px solid #000000;
+
+    transition: 0.5s ease;
+}
+
+.circle {
+    position: fixed;
+    transition: 0.5s ease;
+    opacity: 1;
+}
+
+.square {
+    position: fixed;
+    transition: 0.5s ease;
+    opacity: 1;
+}
+
+@keyframes showFromLeft {
+    0% {
+        transform: translateX(-500px);
+    }
+    100% {
+        transform: translateX(0px) rotate(45deg);
+    }
+}

@@ -1,0 +1,14 @@
+.content-block {
+    margin-bottom: 10vh;
+    padding: 64px 128px;
+    color: #ffffff;
+    font-weight: 100;
+    background-color: #1b1e23;
+    border:5px solid #50a9cf;
+    width: 50%;
+    display: flex;
+    transition: all 0.3s;
+    transform: scale(0);
+    flex-direction: column;
+    z-index: 5;
+}
