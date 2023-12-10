@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import HomePage from "./pages/home-page";
 import RouterWrapper from "./components/router-wrapper/router-wrapper";
 import InterviewPage from "./pages/interview";
+import { InterviewBlock } from "./pages/interview/components/interview-block/interview-block.tsx";
 
 const router = createBrowserRouter([
   {
@@ -13,8 +14,12 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: "interview",
+        path: "research",
         element: <InterviewPage />,
+      },
+      {
+        path: "interview/:id",
+        element: <InterviewBlock />,
       },
     ],
   },

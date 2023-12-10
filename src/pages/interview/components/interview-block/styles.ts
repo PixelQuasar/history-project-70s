@@ -23,9 +23,12 @@ export const UndoLinkWrapper = styled.div`
   display: flex;
   gap: 16px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  & {
-    cursor: pointer;
-  }
+`;
+
+export const UndoLink = styled.div`
+  display: flex;
+  gap: 16px;
+  cursor: pointer;
 `;
 
 export const UndoImage = styled.div`
@@ -46,8 +49,9 @@ export const InterviewTitleBlock = styled.div`
   gap: 32px;
   width: 70%;
   padding-top: 32px;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  margin-left: 10%;
 `;
 
 export const InterviewTextBlock = styled.div`

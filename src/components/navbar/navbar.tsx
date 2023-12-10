@@ -6,13 +6,13 @@ export const Navbar = () => {
 
   return (
     <NavbarWrapper>
-      <NavbarItem>
+      <NavbarItem onClick={() => navigate("/")}>
         <LinkLogo /> Главная
       </NavbarItem>
       <NavbarItem>
         <LinkLogo /> Рецензии
       </NavbarItem>
-      <NavbarItem onClick={() => navigate("/interview")}>
+      <NavbarItem onClick={() => navigate("/research")}>
         <LinkLogo /> Интервью
       </NavbarItem>
     </NavbarWrapper>

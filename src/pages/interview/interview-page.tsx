@@ -1,10 +1,10 @@
 import { InterviewPageWrapper } from "./styles.ts";
-import { InterviewBlock } from "./components/interview-block/interview-block.tsx";
+import { InterviewList } from "./components/interview-list/interview-list.tsx";
 
 export const InterviewPage = () => {
   return (
     <InterviewPageWrapper>
-      <InterviewBlock />
+      <InterviewList />
     </InterviewPageWrapper>
   );
 };
