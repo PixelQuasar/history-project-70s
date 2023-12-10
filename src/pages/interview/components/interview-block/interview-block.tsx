@@ -43,8 +43,8 @@ export const InterviewBlock = () => {
   return (
     <InterviewBlockWrapper>
       <UndoLinkWrapper>
-        <UndoLink>
-          <UndoImage onClick={() => navigate("/interview")} />
+        <UndoLink onClick={() => navigate("/research")}>
+          <UndoImage />
           Назад
         </UndoLink>
       </UndoLinkWrapper>

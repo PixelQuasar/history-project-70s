@@ -12,7 +12,7 @@ export const Navbar = () => {
       <NavbarItem>
         <LinkLogo /> Рецензии
       </NavbarItem>
-      <NavbarItem onClick={() => navigate("/interview")}>
+      <NavbarItem onClick={() => navigate("/research")}>
         <LinkLogo /> Интервью
       </NavbarItem>
     </NavbarWrapper>

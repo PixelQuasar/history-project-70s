@@ -10,7 +10,7 @@ export default function Footer() {
         <FooterNavbarItem onClick={() => navigate("/")}>
           Главная
         </FooterNavbarItem>
-        <FooterNavbarItem onClick={() => navigate("/interview")}>
+        <FooterNavbarItem onClick={() => navigate("/research")}>
           Интевью
         </FooterNavbarItem>
         <FooterNavbarItem>Рецензии</FooterNavbarItem>

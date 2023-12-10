@@ -14,14 +14,12 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: "interview",
+        path: "research",
         element: <InterviewPage />,
-        children: [
-          {
-            path: ":id",
-            element: <InterviewBlock />,
-          },
-        ],
+      },
+      {
+        path: "interview/:id",
+        element: <InterviewBlock />,
       },
     ],
   },
