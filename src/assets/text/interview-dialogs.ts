@@ -325,7 +325,7 @@ export const dialogs = [
   {
     interviewee_id: "I.Vasilisa",
     interviewee_name: "Исаева Василиса Никитична", // Имя опрашиваемого
-    interviewee_photo: "i.Vasilisa.png", // Фото кидайте в папку src/assets/images/
+    interviewee_photo: "I.Vasilisa.png", // Фото кидайте в папку src/assets/images/
     interviewee_desc: "1970 года рождения",
     interviewee_city: "Москва",
 
