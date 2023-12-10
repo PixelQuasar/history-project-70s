@@ -17,7 +17,7 @@ export const HeaderBlock = styled.div`
   align-items: flex-start;
   flex-direction: column;
   z-index: 5;
-  margin-top: 25vh;
+  margin-top: 35vh;
 `;
 
 export const Header = styled.div`

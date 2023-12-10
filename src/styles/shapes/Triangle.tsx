@@ -40,17 +40,6 @@ export default function Triangle({
     borderBottomWidth: `${size * 86.60254}px`,
     transform: `rotate(${degree}deg)`,
   };
-  const hoverStyle = {
-    left: x,
-    top: y,
-    borderBottomColor: color,
-    borderRightWidth: `${size * 50}px`,
-    borderLeftWidth: `${size * 50}px`,
-    borderBottomWidth: `${size * 86.60254}px`,
-    transform: `rotate(${degree + 10}deg) scale(1.2)`,
-    opacity: 1,
-    zIndex: 5,
-  };
 
   const [currentStyle, setCurrentStyle] =
     useState<React.CSSProperties>(startStyle);

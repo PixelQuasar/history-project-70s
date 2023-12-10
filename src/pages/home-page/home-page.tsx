@@ -2,54 +2,16 @@ import { Header, HeaderBlock, HomePageWrapper, SubHeader } from "./styles";
 import Triangle from "../../styles/shapes/Triangle.tsx";
 import { staticTheme } from "../../styles/theme.ts";
 import Stripes from "../../styles/shapes/Stripes.tsx";
+import Navbar from "../../components/navbar";
 export default function HomePage() {
-  const goToPage = (path: string) => {
-    const navigate = useNavigate();
-    return () => {
-      setTransition(true);
-      setTimeout(() => {
-        navigate(path);
-      }, 750);
-    };
-  };
-
   return (
     <HomePageWrapper>
       <HeaderBlock>
         <Header>СЕМИДЕСЯТЫЕ</Header>
         <SubHeader>последнее советское поколение</SubHeader>
       </HeaderBlock>
+      <Navbar />
 
-      <div className="menu-container">
-        <div
-          className={`link slide-item-1 transition-link`}
-          onClick={goToPage("/about")}
-        >
-          About
-        </div>
-        <div
-          className={`link slide-item-2 transition-link`}
-          onClick={goToPage("/projects")}
-        >
-          Projects
-        </div>
-        <div
-          className={`link slide-item-3 transition-link`}
-          onClick={goToPage("/info")}
-        >
-          Skills
-        </div>
-        <div
-          className={`link slide-item-4 ${transition ? "transition-link" : ""}`}
-          onClick={goToPage("/contacts")}
-        >
-          Contacts
-        </div>
-
-        <div className="bottom-slider">
-          <div className={`bar ${transition ? "transition-bar" : ""}`}></div>
-        </div>
-      </div>
       <Triangle
         x={-500}
         y={-200}
