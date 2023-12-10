@@ -27,6 +27,7 @@ interface IInterview {
   interviewee_name: string;
   interviewee_photo: string;
   interviewee_desc: string;
+  interviewee_city: string;
   content: Array<{ interviewee: boolean; text: string }>;
 }
 

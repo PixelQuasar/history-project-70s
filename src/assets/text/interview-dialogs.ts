@@ -34,6 +34,7 @@ export const dialogs = [
     interviewee_name: "Евсеева Людмила Дмитриевна", // Имя опрашиваемого
     interviewee_photo: "kitten.png", // Фото кидайте в папку src/assets/images/
     interviewee_desc: "1954 года рождения",
+    interviewee_city: "Аль-букерке",
 
     content: [
       {
