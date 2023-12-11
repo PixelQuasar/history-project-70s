@@ -5,10 +5,12 @@ import {
   QuotePageWrapper,
   Title,
 } from "./styles.ts";
+import Navbar from "../../components/navbar";
 
 export const QuotesPage = () => {
   return (
     <QuotePageWrapper>
+      <Navbar />
       <Title>Рецензии на книги:</Title>
       <Quote>
         <QuoteContent>

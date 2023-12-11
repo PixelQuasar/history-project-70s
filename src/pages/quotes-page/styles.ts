@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const QuotePageWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  padding-top: 128px;
+  padding-top: 32px;
   padding-bottom: 256px;
   gap: 128px;
   background-color: #ffffff;
